@@ -1,17 +1,25 @@
 #include<iostream>
 
+struct coord
+{
+    char a;
+    char b;
+};
+
 
 int main(){
-	
-	std::cout << "Hello World\n";
-	int x;
-	int y;
+    
+    coord test{12, 63};
 
-	int sum(int _x, int _y){
-		retrun _x + _y;
-	}
+    coord *test2 = &test;
 
+    char v = test2->a;
+    char w = test2->b;
 
-	return 0;
+// alternative to define pointer
 
+    char s = (*test2).a;
+    char t = (*test2).b;
+
+    return 0;
 }

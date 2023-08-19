@@ -16,7 +16,7 @@ int main(){
     char v = test2->a;
     char w = test2->b;
 
-// alternative
+// alternative to define pointer
 
     char s = (*test2).a;
     char t = (*test2).b;
