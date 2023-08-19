@@ -18,9 +18,11 @@ int main(){
 
 // alternative to define pointer
 
+
     char s = (*test2).a;
     char t = (*test2).b;
 	
 	std::cout << "Pointer is here...\n";
+	std::cout << s << t << "  ::  " << v << w << "\n";
     return 0;
 }
