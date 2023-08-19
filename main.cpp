@@ -9,7 +9,7 @@ struct coord
 
 int main(){
     
-    coord test{12, 63};
+    coord test{120, 63};
 
     coord *test2 = &test;
 
@@ -20,6 +20,7 @@ int main(){
 
     char s = (*test2).a;
     char t = (*test2).b;
-
+	
+	std::cout << "Pointer is here...\n";
     return 0;
 }
