@@ -1,3 +1,1 @@
-Hello C++ World 
-
-Example of HackingCPP.com
+There C++ solution ....
