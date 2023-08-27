@@ -5,8 +5,8 @@
 int main(){
 	//using lambda function to print items of vector...
 	auto print = [](std::string s, auto v){
-		std::cout << s;
-		for(auto x: v) std::cout << x << " ";
+		std::cout << s << " " << '\n';
+		for(auto x: v) std::cout << x << " \n";
 		std::cout << '\n';
 		
 	};
@@ -15,12 +15,13 @@ int main(){
 	
 	auto b = a;
 
-	print("a", a); print("b", b);
-	if (a == b) std::cout << "equal";
+	print("a", a); 
+	print("b", b);
+	if (a == b) std::cout <<" : " << "equal\n";
 
 	a[0] = 21;
 	print("a",a); print("b", b);
-	if (a != b) std::cout << "different";
+	if (a != b) std::cout <<" : " << "different\n";
 	
 	return 0;
 }
