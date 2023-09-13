@@ -8,6 +8,12 @@ struct coord
     char b;
 };
 
+struct twoibt
+{
+
+	int a;
+	int b;
+};
 
 std::vector<int> v{936,3,86,9,12};
 std::vector<int> v1{999,66,33};
